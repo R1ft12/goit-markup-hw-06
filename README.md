@@ -1,2 +1,3 @@
-# goit-markup-hw-06
+# goit-markup-hw-03
+
 In this project, a basic structure of a web page was implemented using HTML5.
