@@ -1,98 +1,98 @@
 .features {
-    padding: 96px 0;
+  padding: 96px 0;
 }
 
 .features-list {
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 
 .features-item {
-    width: 100%;
+  width: 100%;
 }
 
 .features-icon-box {
-    display: none;
-    align-items: center;
-    justify-content: center;
+  display: none;
+  align-items: center;
+  justify-content: center;
 
-    height: 112px;
+  height: 112px;
 
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 
-    background-color: #f4f4fd;
+  background-color: #f4f4fd;
 
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 
 .features-icon {
-    fill: #2e2f42;
+  fill: #2e2f42;
 }
 
 .features-subtitle {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 
-    color: #2e2f42;
-    text-align: center;
+  color: #2e2f42;
+  text-align: center;
 }
 
 .features-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
-    color: #434455;
-    font-weight: 500;
+  color: #434455;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
-    .features-list {
-        flex-flow: row wrap;
-        column-gap: 24px;
-        row-gap: 72px;
-    }
+  .features-list {
+    flex-flow: row wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
 
-    .features-item {
-        width: calc((100% - 24px) / 2);
-    }
+  .features-item {
+    width: calc((100% - 24px) / 2);
+  }
 
-    .features-subtitle {
-        text-align: left;
-    }
+  .features-subtitle {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
-    .features {
-        padding: 120px 0;
-    }
+  .features {
+    padding: 120px 0;
+  }
 
-    .features-list {
-        flex-wrap: nowrap;
-        gap: 24px;
-    }
+  .features-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 
-    .features-item {
-        width: calc((100% - 72px) / 4);
-    }
+  .features-item {
+    width: calc((100% - 72px) / 4);
+  }
 
-    .features-icon-box {
-        display: flex;
-    }
+  .features-icon-box {
+    display: flex;
+  }
 
-    .features-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-    }
+  .features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
 
-    .features-text {
-        font-weight: 400;
-    }
+  .features-text {
+    font-weight: 400;
+  }
 }
